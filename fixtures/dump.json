@@ -1,0 +1,500 @@
+[
+{
+  "model": "webapp.doctor",
+  "pk": 1,
+  "fields": {
+    "name": "Sagynbaeva Gulnura",
+    "image": "media/kyr_doctor.jpeg",
+    "cropping": "3,138,628,863",
+    "portfolio": "According to the Republican headquarter for the fight against coronavirus, as of April 20, 140 medical workers have been infected with the coronavirus in the republic. Doctors say that they were not provided with the necessary medicine and equipment, as far as it was necessary."
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 2,
+  "fields": {
+    "name": "Kymbat Turdubekova",
+    "image": "media/kyr_doctor2.jpeg",
+    "cropping": "189,65,774,745",
+    "portfolio": "IWPR supports local reporters, citizen journalists and civil society activists in three dozen countries in conflict, crisis and transition around the world. IWPR contributes to peace and good governance by strengthening the ability of media and civil society to speak out."
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 3,
+  "fields": {
+    "name": "Kaldarbek Abduvaliev",
+    "image": "media/rustam.jpeg",
+    "cropping": "0,41,774,941",
+    "portfolio": "\u201cI have never heard that the trade union is conducting some kind of active work. Not only during this difficult time for us, but also for 30 years, when doctors faced many complications, where the trade union had to defend the interests of doctors,\u201d says Abramanov."
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 4,
+  "fields": {
+    "name": "Kanybek Almamatov",
+    "image": "media/muha.jpeg",
+    "cropping": "72,69,445,502",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 5,
+  "fields": {
+    "name": "Nargiza Ergeshova",
+    "image": "media/kyr_doctor4_65HPPjs.jpeg",
+    "cropping": "38,76,689,832",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 6,
+  "fields": {
+    "name": "Tazagul Omurova",
+    "image": "media/junus.jpeg",
+    "cropping": "0,20,750,892",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 7,
+  "fields": {
+    "name": "Viktor Komarov",
+    "image": "media/urolog.jpeg",
+    "cropping": "67,200,468,667",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.doctor",
+  "pk": 8,
+  "fields": {
+    "name": "Zainab Joomartova",
+    "image": "media/ya.jpeg",
+    "cropping": "42,25,784,888",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 1,
+  "fields": {
+    "name": "Bekeshov Abdulla",
+    "image": "media/patinet1.jpg",
+    "cropping": "219,124,455,400",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 2,
+  "fields": {
+    "name": "Dianara Aidarova",
+    "image": "media/patient3.jpeg",
+    "cropping": "351,440,740,892",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 3,
+  "fields": {
+    "name": "Temir Aziretov",
+    "image": "media/patient4.jpeg",
+    "cropping": "10,158,630,878",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 4,
+  "fields": {
+    "name": "Kalmurat Derkembaev",
+    "image": "media/patient2.jpg",
+    "cropping": "63,68,348,400",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 5,
+  "fields": {
+    "name": null,
+    "image": "media/glvvrach.jpeg",
+    "cropping": "0,90,734,944",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 6,
+  "fields": {
+    "name": null,
+    "image": "media/glvvrach2.jpeg",
+    "cropping": "130,205,749,925",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 7,
+  "fields": {
+    "name": null,
+    "image": "media/kyr_doctor6_9KizabS.jpeg",
+    "cropping": "0,65,774,965",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.patient",
+  "pk": 8,
+  "fields": {
+    "name": null,
+    "image": "media/patient5.jpeg",
+    "cropping": "0,65,774,965",
+    "portfolio": ""
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 1,
+  "fields": {
+    "text1": "The first kidney foundation  in Central Asia.",
+    "text2": "We are the first Kidney Disease Foundation in Central Asia, who is trying to help people who have no opportunity to get hemodialysis . At the present there are several thousand of chronic kidney disease patients with disabilities to get hemodialysis. Many of them die at a young age before dialysis.",
+    "image": "",
+    "cropping": "0,47,640,334"
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 2,
+  "fields": {
+    "text1": "The reason people could not get hemodialisys in Kyrgyzstan",
+    "text2": "Due to the lack of available budget-funded beds in healthcare organizations, the government has to buy the dialysis services from private providers. And, the government provides treatment to another 200 patients under the contract with private providers for dialysis service. \r\nTherefore, some patients have to receive dialysis in private medical centers at their own expense, and the price varies from 100 $ for one hemodialysis session which most of family can't afford. Because monthly average salary in Kyrgyzstan is 236 $ and it is in capital city, in regions even less then this, therefore, many patients die due to lack of a hemodialysis machine.\r\nOne patient should receive in average about 12-13 sessions on a monthly basis, or about 144 - 156 sessions a year. Rapidly growing number of patients with CKD of stage 5 (ESRD) requires a constant increase in the number of dialysis beds by increasing workload on operating dialysis units or opening new units with all working infrastructure, which entails an increase in maintenance and supplies expenses of the state in order to provide hemodialysis to patients.",
+    "image": "",
+    "cropping": "0,0,669,299"
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 4,
+  "fields": {
+    "text1": "Our mission",
+    "text2": "To look after needy people with end-stage kidney disease through quality care, education and research.",
+    "image": "",
+    "cropping": "0,336,3600,1950"
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 5,
+  "fields": {
+    "text1": "Our Vision",
+    "text2": "To ensure that no kidney patient will perish because of the lack of funds for dialysis and to find a cure for kidney diseases.",
+    "image": "",
+    "cropping": ""
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 6,
+  "fields": {
+    "text1": "Our Commitment",
+    "text2": "To provide high quality, low cost treatment to needy kidney patients\r\nTo offer patient support services to all kidney patients in Kyrgyzstan\r\nTo promote public awareness and education of kidney diseases\r\nTo organise educational programmes on renal-related issues for healthcare and medical professionals\r\nTo support research work that would lead to the prevention and cure of kidney-related diseases",
+    "image": "",
+    "cropping": ""
+  }
+},
+{
+  "model": "webapp.aboutus",
+  "pk": 8,
+  "fields": {
+    "text1": "Departments",
+    "text2": "In our hospital, we already serve patients in such departments as urology, gynecology, cardiology, surgery, ENT",
+    "image": "",
+    "cropping": ""
+  }
+},
+{
+  "model": "webapp.aboutusimage",
+  "pk": 1,
+  "fields": {
+    "image": "media/patient2_MR7dMtl.jpg",
+    "cropping": "12,76,730,307"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 1,
+  "fields": {
+    "title": "What is chronic kidney disease (CKD)?",
+    "text": "Chronic kidney disease, also called chronic kidney failure, describes the gradual loss of kidney function. Your kidneys filter wastes and excess fluids from your blood, which are then excreted in your urine. When chronic kidney disease reaches an advanced stage, dangerous levels of fluid, electrolytes and wastes can build up in your body.\r\n\r\nIn the early stages of chronic kidney disease, you may have few signs or symptoms. Chronic kidney disease may not become apparent until your kidney function is significantly impaired.\r\n\r\nTreatment for chronic kidney disease focuses on slowing the progression of the kidney damage, usually by controlling the underlying cause. Chronic kidney disease can progress to end-stage kidney failure, which is fatal without artificial filtering (dialysis) or a kidney transplant.",
+    "image": "media/6.jpg",
+    "cropping": "0,108,674,332"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 2,
+  "fields": {
+    "title": "What causes Chronic Kidney Disease?",
+    "text": "The two main causes of chronic kidney disease are diabetes and high blood pressure, which are responsible for up to two-thirds of the cases. Diabetes happens when your blood sugar is too high, causing damage to many organs in your body, including the kidneys and heart, as well as blood vessels, nerves and eyes. High blood pressure, or hypertension, occurs when the pressure of your blood against the walls of your blood vessels increases. If uncontrolled, or poorly controlled, high blood pressure can be a leading cause of heart attacks, strokes and chronic kidney disease. Also, chronic kidney disease can cause high blood pressure.\r\n\r\nOther conditions that affect the kidneys are:\r\n\r\n1) Glomerulonephritis, a group of diseases that cause inflammation and damage to the kidney's filtering units. These disorders are the third most common type of kidney disease.\r\n2) Inherited diseases, such as polycystic kidney disease, which causes large cysts to form in the kidneys and damage the surrounding tissue.\r\n3) Malformations that occur as a baby develops in its mother's womb. For example, a narrowing may occur that prevents normal outflow of urine and causes urine to flow back up to the kidney. This causes infections and may damage the kidneys.\r\n4) Lupus and other diseases that affect the body's immune system.\r\n5) Obstructions caused by problems like kidney stones, tumors or an enlarged prostate gland in men.\r\n6) Repeated urinary infections.",
+    "image": "media/3_xsnnMvF.jpg",
+    "cropping": "0,89,720,328"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 3,
+  "fields": {
+    "title": "Early stages of Chronic Kidney Disease.",
+    "text": "Kidney disease does not tend to cause symptoms when it's at an early stage.\r\n\r\nThis is because the body is usually able to cope with a significant reduction in kidney function.\r\n\r\nKidney disease is often only diagnosed at this stage if a routine test for another condition, such as a blood or urine test, detects a possible problem.\r\n\r\nIf it's found at an early stage, medicine and regular tests to monitor it may help stop it becoming more advanced.",
+    "image": "media/2_IEuPnFf.jpeg",
+    "cropping": "0,444,3600,1644"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 4,
+  "fields": {
+    "title": "Later stages of Chronic Kidney Disease.",
+    "text": "A number of symptoms can develop if kidney disease is not found early or it gets worse despite treatment.\r\n\r\nSymptoms can include:\r\n\r\n1) weight loss and poor appetite\r\n2) swollen ankles, feet or hands \u2013 as a result of water retention (oedema) \r\n3) shortness of breath\r\n4) tiredness\r\n5) blood in your pee (urine)\r\n6) an increased need to pee \u2013 particularly at night \r\n7) difficulty sleeping (insomnia)\r\n8) itchy skin\r\n9) muscle cramps\r\n10) feeling sick\r\n11) headaches\r\n12) erectile dysfunction in men\r\nThis stage of CKD is known as kidney failure, end-stage renal disease or established renal failure. It may eventually require treatment with dialysis or a kidney transplant.",
+    "image": "media/7.jpg",
+    "cropping": "243,0,1741,500"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 5,
+  "fields": {
+    "title": "What can I do to keep my kidneys healthy?",
+    "text": "You can protect your kidneys by preventing or managing health conditions that cause kidney damage, such as diabetes and high blood pressure. The steps described below may help keep your whole body healthy, including your kidneys.\r\n\r\nDuring your next medical visit, you may want to ask your health care provider about your kidney health. Early kidney disease may not have any symptoms, so getting tested may be the only way to know your kidneys are healthy. Your health care provider will help decide how often you should be tested.\r\n\r\nSee a provider right away if you develop a urinary tract infection (UTI), which can cause kidney damage if left untreated.",
+    "image": "media/healthy.jpg",
+    "cropping": "0,134,707,370"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 6,
+  "fields": {
+    "title": "Choose right diet",
+    "text": "Choose foods that are healthy for your heart and your entire body: fresh fruits, fresh or frozen vegetables, whole grains, and low-fat or fat-free dairy products. Eat healthy meals, and cut back on salt and added sugars. Aim for less than 2,300 milligrams of sodium each day. Try to have less than 10 percent of your daily calories come from added sugars.\r\n\r\nTips for making healthy food choices\r\n\r\nCook with a mix of spices instead of salt.\r\n\r\nChoose veggie toppings such as spinach, broccoli, and peppers for your pizza.\r\n\r\nTry baking or broiling meat, chicken, and fish instead of frying.\r\n\r\nServe foods without gravy or added fats.\r\n\r\nTry to choose foods with little or no added sugar.\r\n\r\nGradually work your way down from whole milk to 2 percent milk until you\u2019re drinking and cooking with fat-free (skim) or low-fat milk and milk products.\r\n\r\nEat foods made from whole grains\u2014such as whole wheat, brown rice, oats, and whole-grain corn\u2014every day. Use whole-grain bread for toast and sandwiches; substitute brown rice for white rice for home-cooked meals and when dining out.\r\n\r\nRead food labels. Choose foods low in saturated fats, trans fats, cholesterol, salt (sodium), and added sugars.\r\n\r\nSlow down at snack time. Eating a bag of low-fat popcorn takes longer than eating a slice of cake. Peel and eat an orange instead of drinking orange juice.\r\n\r\nTry keeping a written record of what you eat for a week. It can help you see when you tend to overeat or eat foods high in fat or calories.",
+    "image": "media/diet.jpg",
+    "cropping": "0,304,1600,838"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 9,
+  "fields": {
+    "title": "Treating pyelonephritis",
+    "text": "Antibiotics are the first course of action against acute pyelonephritis. However, the type of antibiotic your doctor chooses depends on whether or not the bacteria can be identified. If not, a broad-spectrum antibiotic is used.\r\n\r\nAlthough drugs can cure the infection within 2 to 3 days, the medication must be taken for the entire prescription period (usually 10 to 14 days). This is true even if you feel better.\r\n\r\nThe antibiotic options are:\r\n\r\nlevofloxacin\r\nciprofloxacin\r\nco-trimoxazole\r\nampicillin",
+    "image": "media/phiolenefrtits.jpg",
+    "cropping": "0,64,800,330"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 10,
+  "fields": {
+    "title": "10 Common Habits That May Harm Your Kidneys",
+    "text": "It's not too late to unlearn these damaging behaviors. Here a list of ten common habits that you might not realize are putting pressure on your kidneys. \r\n\r\n1. Overusing Painkillers\r\nOver the counter pain medicines, such as NSAIDs (nonsteroidal anti-inflammatory drugs), may alleviate your aches and pains, but they can harm the kidneys, especially if you already have kidney disease. Reduce your regular use of NSAIDs and never go over the recommended dosage.\r\n\r\n2. Abusing the Salt Shaker\r\nDiets high in salt are high in sodium, which can increase blood pressure and, in turn, harm your kidneys.  Flavor your foods with herbs and spices instead of salt. Over time, you may find it easier to avoid using added salt (sodium) on your food. \r\n\r\n3. Eating Processed Foods\r\nProcessed foods are significant sources of sodium and phosphorus. Many people who have kidney disease need to limit phosphorus in their diets. Some studies have shown that high phosphorus intake from processed foods in people without kidney disease may be harmful to their kidneys and bones. Try adopting the DASH diet to guide your healthy eating habits.\r\n\r\n4. Not Drinking Enough Water\r\nStaying well hydrated helps your kidneys clear sodium and toxins from the body. Drinking plenty of water is also one of the best ways to avoid painful kidney stones. Those with kidney problems or kidney failure may need to restrict their fluid intake, but for most people, drinking 1.5 to 2 liters (3 to 4 pints) of water per day is a healthy target.\r\n\r\n5. Missing Out on Sleep\r\nA good night\u2019s rest is extremely important to your overall well-being and, it turns out, your kidneys. Kidney function is regulated by the sleep-wake cycle which helps coordinate the kidneys\u2019 workload over 24 hours. \r\n\r\n6. Eating Too Much Meat\r\nAnimal protein generates high amounts of acid in the blood that can be harmful to the kidneys and cause acidosis \u2013 a condition in which kidneys cannot eliminate acid fast enough. Protein is needed for growth, upkeep and repair of all parts of the body but your diet should be well balanced with fruits and vegetables.\r\n\r\n7. Eating Too Many Foods High in Sugar\r\nSugar contributes to obesity which increases your risk of developing high blood pressure and diabetes, two of the leading causes of kidney disease. In addition to desserts, sugar is often added to foods and drinks that you may not consider \u201csweet.\u201d Avoid condiments, breakfast cereals, and white bread which are all sneaky sources of processed sugar. Pay attention to the ingredients when buying packaged goods to avoid added sugar in your diet.\r\n\r\n8. Lighting Up\r\nSure, smoking isn't good for your lungs or your heart. But did you know that smoking may not be good for your kidneys either? People who smoke are more likely to have protein in the urine \u2013 a sign of kidney damage.\r\n\r\n9. Drinking Alcohol in Excess \r\nRegular heavy drinking \u2013 more than four drinks a day \u2013 has been found to double the risk chronic kidney disease. Heavy drinkers who also smoke have an even higher risk of kidney problems. Smokers who are heavy drinkers have about five times the chance of developing chronic kidney disease than people who don\u2019t smoke or drink alcohol to excess.\r\n\r\n10. Sitting Still \r\nSitting for long periods of time has now been linked to the development of kidney disease. Although researchers don\u2019t know yet why or how sedentary time or physical activity directly impact kidney health, it is known that greater physical activity is associated with  improved blood pressure and glucose metabolism, both important factors in kidney health. \r\n\r\n*This article is intended to help prevent kidney disease. If you've been told to limit your potassium or phosphorus or are on dialysis, discuss your personal dietary needs with your dietitian or nephrologist.",
+    "image": "media/top10.jpg",
+    "cropping": "0,47,320,153"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 11,
+  "fields": {
+    "title": "Polycystic kidney disease prevention",
+    "text": "If you have polycystic kidney disease and you're considering having children, a genetic counselor can help you assess your risk of passing the disease to your offspring.\r\n\r\nKeeping your kidneys as healthy as possible may help prevent some of the complications of this disease. One of the most important ways you can protect your kidneys is by managing your blood pressure.\r\n\r\nHere are some tips for keeping your blood pressure in check:\r\n\r\nTake the blood pressure medications prescribed by your doctor as directed.\r\nEat a low-salt diet containing plenty of fruits, vegetables and whole grains.\r\nMaintain a healthy weight. Ask your doctor what the right weight is for you.\r\nIf you smoke, quit.\r\nExercise regularly. Aim for at least 30 minutes of moderate physical activity most days of the week.\r\nLimit alcohol use.",
+    "image": "media/poli.jpg",
+    "cropping": "0,42,700,275"
+  }
+},
+{
+  "model": "webapp.aboutread",
+  "pk": 12,
+  "fields": {
+    "title": "What is a kidney transplant?",
+    "text": "A kidney transplant is a surgical procedure that\u2019s done to treat kidney failure. The kidneys filter waste from the blood and remove it from the body through your urine. They also help maintain your body\u2019s fluid and electrolyte balance. If your kidneys stop working, waste builds up in your body and can make you very sick.\r\n\r\nPeople whose kidneys have failed usually undergo a treatment called dialysis. This treatment mechanically filters waste that builds up in the bloodstream when the kidneys stop working.\r\n\r\nSome people whose kidneys have failed may qualify for a kidney transplant. In this procedure, one or both kidneys are replaced with donor kidneys from a live or deceased person.\r\n\r\nThere are pros and cons to both dialysis and kidney transplants.\r\n\r\nUndergoing dialysis takes time and is labor-intensive. Dialysis often requires making frequent trips to a dialysis center to receive treatment. At the dialysis center, your blood is cleansed using a dialysis machine.\r\n\r\nIf you\u2019re a candidate to have dialysis in your home, you\u2019ll need to purchase dialysis supplies and learn how to use them.\r\n\r\nA kidney transplant can free you from a long-term dependence on a dialysis machine and the strict schedule that goes with it. This can allow you to live a more active life. However, kidney transplants aren\u2019t suitable for everyone. This includes people with active infections and those who are severely overweight.\r\n\r\nDuring a kidney transplant, your surgeon will take a donated kidney and place it in your body. Even though you\u2019re born with two kidneys, you can lead a healthy life with only one functioning kidney. After the transplant, you\u2019ll have to take immune-suppressing medications to keep your immune system from attacking the new organ.",
+    "image": "media/transplant.jpg",
+    "cropping": "0,137,1024,478"
+  }
+},
+{
+  "model": "webapp.image",
+  "pk": 2,
+  "fields": {
+    "image": "media/3.jpg",
+    "cropping": "0,26,720,370"
+  }
+},
+{
+  "model": "webapp.indexblog",
+  "pk": 1,
+  "fields": {
+    "title": "Support",
+    "title2": "We Are Here for You",
+    "text": "We can help you find the information and resources you need, provide support and help you connect with others living with kidney disease in your community.",
+    "text2": "Most people have never heard of kidney disease until it affects them, or someone they care about.\r\n\r\nThousand of people in Kyrgyzstan are currently being treated for kidney failure, finding information about the treatments, options and support available can be difficult. \r\n\r\nWe can help kidney patients locate the information and resources they need, to learn more about how they can manage kidney disease, and the impact it has on their lives. \r\n\r\nTo promote a better understanding of kidney disease and of support and resources available to all patients.",
+    "image": "media/volunteer2_5XjIcI5.jpg",
+    "cropping": "0,10,780,383"
+  }
+},
+{
+  "model": "webapp.indexblog",
+  "pk": 2,
+  "fields": {
+    "title": "Treatment of kidney disease",
+    "title2": "Kidneys are as important to your health as your heart or your lungs.",
+    "text": "Kidneys are as important to your health as your heart or your lungs. If you know what the kidneys do when they work properly, it will be easier to understand what can happen when they begin to fail.",
+    "text2": "As a first step toward diagnosis of kidney disease, your doctor discusses your personal and family history with you. Among other things, your doctor might ask questions about whether you've been diagnosed with high blood pressure, if you've taken a medication that might affect kidney function, if you've noticed changes in your urinary habits, and whether you have any family members who have kidney disease.\r\n\r\nNext, your doctor performs a physical exam, also checking for signs of problems with your heart or blood vessels, and conducts a neurological exam.\r\n\r\nFor kidney disease diagnosis, you may also need certain tests and procedures, such as:\r\n\r\nBlood tests. Kidney function tests look for the level of waste products, such as creatinine and urea, in your blood.\r\nUrine tests. Analyzing a sample of your urine may reveal abnormalities that point to chronic kidney failure and help identify the cause of chronic kidney disease.\r\nImaging tests. Your doctor may use ultrasound to assess your kidneys' structure and size. Other imaging tests may be used in some cases.\r\nRemoving a sample of kidney tissue for testing. Your doctor may recommend a kidney biopsy to remove a sample of kidney tissue. Kidney biopsy is often done with local anesthesia using a long, thin needle that's inserted through your skin and into your kidney. The biopsy sample is sent to a lab for testing to help determine what's causing your kidney problem.",
+    "image": "media/volontres3.jpeg",
+    "cropping": "0,139,1602,905"
+  }
+},
+{
+  "model": "webapp.indexblog",
+  "pk": 3,
+  "fields": {
+    "title": "Volunteer",
+    "title2": "Better lives and healthier futures start with YOU.",
+    "text": "Volunteer your time and help bring positive change for patients, living donors and transplant recipients.",
+    "text2": "To our devoted volunteers:\r\n\r\nLife has changed very suddenly for all of us in the last few weeks. Please know how grateful we are for your compassion, commitment and solidarity during this challenging time. We\u2019re all in this together.\r\n\r\nOut of a deep concern for the health and safety of our patients, staff and volunteers like you, we\u2019ve made the decision to reformat or postpone many upcoming in-person community events resulting in changes to our anticipated volunteer support needs. Your health and safety are our priority.\r\n\r\nIf you have recently signed up to volunteer in your area an Kidney Foundation Hospital staff person will contact you personally with updates.\r\n\r\nPlease contact shera.rashiduulu@gmail.com if you have additional questions about volunteering with Kidney Foundation Hospital",
+    "image": "media/volonters.jpg",
+    "cropping": "0,235,1602,1001"
+  }
+},
+{
+  "model": "webapp.indexblog",
+  "pk": 4,
+  "fields": {
+    "title": "Fundraise",
+    "title2": "",
+    "text": "Together we are stronger. Fund to help people to fight  with kidney disease.",
+    "text2": "",
+    "image": "media/fundraise.jpg",
+    "cropping": "0,51,400,241"
+  }
+},
+{
+  "model": "webapp.advices",
+  "pk": 1,
+  "fields": {
+    "title": "Prevention",
+    "text": "To reduce your risk of developing diabetic kidney disease:\r\n\r\nTreat your diabetes. With effective treatment of diabetes, you may prevent or delay diabetic kidney disease.\r\nManage high blood pressure or other medical conditions. If you have high blood pressure or other conditions that increase your risk of kidney disease, work with your doctor to control them. Ask your doctor about tests to look for signs of kidney damage.\r\nFollow instructions on over-the-counter medications. When using nonprescription pain relievers such as aspirin and ibuprofen (Advil, Motrin IB, others), follow the instructions on the package. For people with diabetic kidney disease, taking these types of pain relievers can lead to kidney damage.\r\nMaintain a healthy weight. If you're at a healthy weight, work to maintain it by being physically active most days of the week. If you need to lose weight, talk with your doctor about weight-loss strategies, such as increasing daily physical activity and reducing calories.\r\nDon't smoke. Cigarette smoking can damage your kidneys and make existing kidney damage worse. If you're a smoker, talk to your doctor about strategies for quitting smoking. Support groups, counseling and medications can all help you to stop.",
+    "image": "media/diabetes.jpeg",
+    "cropping": "0,99,674,324"
+  }
+},
+{
+  "model": "webapp.advices",
+  "pk": 2,
+  "fields": {
+    "title": "How can I prevent or slow the progression of kidney disease from high blood pressure?",
+    "text": "The best way to slow or prevent kidney disease from high blood pressure is to take steps to lower your blood pressure. These steps include a combination of medicines and lifestyle changes, such as\r\n\r\nbeing physically active\r\nmaintaining a healthy weight\r\nquitting smoking\r\nmanaging stress\r\nfollowing a healthy diet, including less sodium (salt) intake\r\nNo matter what the cause of your kidney disease, high blood pressure can make your kidneys worse. If you have kidney disease, you should talk with your health care professional about your individual blood pressure goals and how often you should have your blood pressure checked.",
+    "image": "media/hyper.jpg",
+    "cropping": "0,392,1106,760"
+  }
+},
+{
+  "model": "webapp.advices",
+  "pk": 3,
+  "fields": {
+    "title": "Treatment for kidney stones",
+    "text": "Determining the type of kidney stone you have is usually done by evaluating a 24-hour collection of urine, or by examining a stone after it has been passed. There are several methods of renal stone removal; many don't require surgery. You may even be able to pass a stone by drinking lots of water.\r\n\r\nSome of the treatments for kidney stones that are too large to pass, or are causing damage, include:\r\n\r\nShock wavesthat are sent directly to the kidney stone. Extracorporeal shock wave lithotripsy (ESWL) or sound waves is not an invasive treatment, so it doesn't require surgery or a hospital stay.\r\nNephrolithotomy, or percutaneous (meaning \"through the skin\") nephrolithotomy, is when the doctor makes a small incision in your back and removes the kidney stone using a nephroscope.\r\nUreteroscopic kidney stone removal is a procedure that uses a scope passed through the bladder to remove a stone that is stuck in the ureter.",
+    "image": "media/stones.jpg",
+    "cropping": "0,246,341,360"
+  }
+},
+{
+  "model": "webapp.advices",
+  "pk": 4,
+  "fields": {
+    "title": "What treatments are available for glomerulonephritis?",
+    "text": "Treatment options depend on the type of GN you\u2019re experiencing and its cause.\r\n\r\nOne treatment is to control high blood pressure, especially if that\u2019s the underlying cause of the GN. Blood pressure may be very hard to control when your kidneys aren\u2019t working properly. If this is the case, your doctor may prescribe blood pressure medications, including angiotensin-converting enzyme inhibitors, or ACE inhibitors, such as:\r\n\r\ncaptopril\r\nlisinopril (Zestril)\r\nperindopril (Aceon)\r\nYour doctor may also prescribe angiotensin receptor blockers, or ARBs, such as:\r\n\r\nlosartan (Cozaar)\r\nirbesartan (Avapro)\r\nvalsartan (Diovan)\r\nCorticosteroids may also be used if your immune system is attacking your kidneys. They reduce the immune response.\r\n\r\nAnother method to reduce immune-triggered inflammation is plasmapheresis. This process removes the fluid part of your blood, called plasma, and replaces it with intravenous fluids or donated plasma that contains no antibodies.\r\n\r\nFor chronic GN, you\u2019ll need to reduce the amount of protein, salt, and potassium in your diet. Additionally, you must watch how much liquid you drink. Calcium supplements may be recommended, and you may need to take diuretics to reduce swelling. Check with your general practitioner or kidney specialist for guidelines about diet restrictions or supplements. They can set you up with a medical dietician to advise you on your choices.\r\n\r\nIf your condition becomes advanced and you develop kidney failure, you may need to have dialysis. In this procedure, a machine filters your blood. Eventually, you may need a kidney transplant.",
+    "image": "media/glomer.jpg",
+    "cropping": "0,85,500,252"
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 1,
+  "fields": {
+    "title": "When is dialysis needed?",
+    "text": "Dialysis is a way of cleaning your blood when your kidneys can no longer do the job. It gets rid of your body's wastes, extra salt and water, and helps to control your blood pressure."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 2,
+  "fields": {
+    "title": "Are there different types of dialysis?",
+    "text": "There are two kinds of dialysis. In hemodialysis, blood is pumped out of your body to an artificial kidney machine, and returned to your body by tubes that connect you to the machine. In peritoneal dialysis, the inside lining of your own belly acts as a natural filter. Wastes are taken out by means of a cleansing fluid called dialysate, which is washed in and out of your belly in cycles."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 3,
+  "fields": {
+    "title": "How does peritoneal dialysis work?",
+    "text": "A soft plastic tube (catheter) is placed in your belly by surgery. A sterile cleansing fluid is put into your belly through this catheter. After the filtering process is finished, the fluid leaves your body through the catheter."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 4,
+  "fields": {
+    "title": "There are two kinds of peritoneal dialysis:",
+    "text": "Continuous Ambulatory Peritoneal Dialysis (CAPD)\r\nAutomated Peritoneal Dialysis (APD)\r\nThe basic treatment is the same for each. However, the number of treatments and the way the treatments are done make each method different.\r\n\r\nCAPD is \"continuous,\" machine-free and done while you go about your normal activities such as work or school. You do the treatment by placing about two quarts of cleansing fluid into your belly and later draining it. This is done by hooking up a plastic bag of cleansing fluid to the tube in your belly. Raising the plastic bag to shoulder level causes gravity to pull the fluid into your belly. When empty, the plastic bag is removed and thrown away.\r\n\r\nWhen an exchange (putting in and taking out the fluid) is finished, the fluid (which now has wastes removed from your blood) is drained from your belly and thrown away. This process usually is done three, four or five times in a 24-hour period while you are awake during normal activities. Each exchange takes about 30 to 40 minutes. Some patients like to do their exchanges at mealtimes and at bedtime.\r\n\r\nAPD differs from CAPD in that a machine (cycler) delivers and then drains the cleansing fluid for you. The treatment usually is done at night while you sleep."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 5,
+  "fields": {
+    "title": "What kind of peritoneal dialysis is best?",
+    "text": "The type of peritoneal dialysis that is best for you depends on your personal choice and your medical condition. Your doctor will help you to choose the one that is best for you."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 6,
+  "fields": {
+    "title": "What are the pros and cons about being on peritoneal dialysis?",
+    "text": "Some doctors feel that CAPD and APD have several benefits when compared to hemodialysis. With continuous dialysis, you can control extra fluid more easily, and this may reduce stress on the heart and blood vessels. You are able to eat more and use fewer medications. You can do more of your daily activities and it is easier to work or travel.\r\n\r\nHowever, there are some people for whom peritoneal dialysis may not be appropriate. The abdomen or belly of some people, particularly those who are morbidly obese or those with multiple prior abdominal surgeries, may make peritoneal dialysis treatments difficult or impossible. Peritonitis (infection of abdomen) is an occasional complication although should be infrequent with appropriate precautions. When making a decision about the type of treatment, you should take into consideration that peritoneal dialysis is usually a daily process, similar to the working of the kidney and may be more gentle with fluid removal from the body. Peritoneal dialysis is an effective form of dialysis, has been proven to be as good as hemodialysis.\r\n\r\nPeritoneal dialysis is not for everyone. People must receive training and be able to perform correctly each of the steps of the treatment. A trained helper may also be used."
+  }
+},
+{
+  "model": "webapp.forpatientblog",
+  "pk": 7,
+  "fields": {
+    "title": "How are treatments paid for?",
+    "text": "All types of dialysis are expensive, but, for most patients, the federal government now pays 80 percent of all dialysis charges, while private insurance or state medical assistance pays the rest."
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$sjGYOiEk4tAs$jXHSTjSScxdE9XP3tCaJnmP31CUGJQoxSsHNyjvK7dU=",
+    "last_login": "2020-08-11T06:24:38.214Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-06-27T05:54:39.012Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
