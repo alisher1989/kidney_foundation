@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block about_selected %}selected{% endblock %}'
+{% block content %}
+    <div id="body">
+        <div class="sidebar">
+            <h3>contact</h3>
+            <ul>
+                <li>
+                    <span class="address">address</span>
+                    <ul>
+                        <li>
+                            Kyrgyzstan, Bishkek
+                        </li>
+                        <li>
+                            Kidney Foundation Hospital
+                        </li>
+                        <li>
+                            Logvinenko street, 27
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="phone">telephone</span>
+                    <ul>
+                        <li>
+                            +996 708 19 23 63
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="email">email</span>
+                    <ul>
+                        <li>
+                            <a href="https://mail.google.com/">shera.rashiduulu@gmail.com</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="twitter">twitter</span>
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/alisher2555/">@alisher2555</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="facebook">facebook</span>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/alisher.rashiduulu.1?ref=bookmarks">facebook.kidney_foundation</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            {% for i in about_list %}
+            <div class="card" style="margin-bottom: 10px;" >
+                <div class="card-body">
+                    <h5 class="card-title">{{ i.text1 }}</h5>
+                    <p class="card-text" style="color: black">{{ i.text2|linebreaks }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

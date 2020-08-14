@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<a href="{% url 'index' %}" class="logo">
+            <p>
+                <img src="{% static 'images/logo_new.jpeg' %}" alt="" width="100 px;" style="-webkit-border-bottom-left-radius: 8px;
+                -webkit-border-bottom-right-radius: 14px; -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 14px;
+                 float: left; font-size: 250%; padding-right: 10px;">
+                <b style="font-size: large; -webkit-text-stroke: 0.5px red">KIDNEY FOUNDATION HOSPITAL</b>
+            </p>
+        </a>
+		<ul>
+			<li class="{% block home_selected %}{% endblock %}">
+				<a href="{% url 'index' %}">home</a>
+			</li>
+			<li class="{% block about_selected %}{% endblock %}">
+				<a href="{% url 'about_us' %}">about us</a>
+			</li>
+			<li class="{% block kidney_selected %}{% endblock %}">
+				<a href="{% url 'kidney_disease_is' %}">Education</a>
+			</li>
+			<li class="{% block our_doctors_selected %}{% endblock %}">
+				<a href="{% url 'doctors' %}">Team Management</a>
+			</li>
+			<li class="{% block patients_selected %}{% endblock %}">
+				<a href="{% url 'for_patients' %}">for patients</a>
+			</li>
+			<li class="{% block donate_selected %}{% endblock %}">
+				<a href="{% url 'contact' %}">donate now</a>
+			</li>
+		</ul>
+	</div>
+    {% block content %}
+
+    {% endblock %}
+	<div id="footer">
+		<div>
+			<p>
+				<span>2023 &copy; Illumelabs Diagnostic Center.</span><a href="#" >Terms of Service</a> | <a href="#" >Privacy Policy</a>
+			</p>
+			<ul>
+				<li id="facebook">
+					<a href="http://freewebsitetemplates.com/go/facebook/">facebook</a>
+				</li>
+				<li id="twitter">
+					<a href="http://freewebsitetemplates.com/go/twitter/">twitter</a>
+				</li>
+				<li id="googleplus">
+					<a href="http://freewebsitetemplates.com/go/googleplus/">googleplus</a>
+				</li>
+				<li id="rss">
+					<a href="#" >rss</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

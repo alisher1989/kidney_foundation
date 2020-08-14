@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load cropping %}
+{% block our_doctors_selected %}selected{% endblock %}'
+{% block content %}
+    <div class="container" style="background-color: #97aeb3">
+        <div style="padding-top: 10px;">
+            <div class="card">
+                <div class="card-header">
+                    Chief Nephrologist and Trustee of Kidney Foundation Hospital, Expert of Haemodialysis at the Ministry of Health Kyrgyzstan.
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Dr. Abdiev Bektur</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 10px;">
+            <div class="card">
+                <div class="card-header">
+                    Director of Kidney Foundation Hospital
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Dr. Muhammad Nazrul Sirkar</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 10px;">
+            <div class="card">
+                <div class="card-header">
+                    General Manager
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Mr. Alisher Sartmamatov Rashidovich</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 10px; padding-bottom: 10px">
+            <div class="card">
+                <div class="card-header">
+                    Obstetrics and Gynecologist
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Dr. Rustam Nasyrov</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 10px; padding-bottom: 10px">
+            <div class="card">
+                <div class="card-header">
+                    Urologist
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Dr. Moidinzhon Rakhmatullaev </p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 10px; padding-bottom: 10px">
+            <div class="card">
+                <div class="card-header">
+                    Cardiologist
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Dr. Junus Kadyraliev</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h1 style="text-align: center; padding-top: 10px; color: #205067">Our Doctors</h1>
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row" style="margin-left: 20px; margin-right: 20px;">
+                                    {% for i in doctors %}
+                                        <div class="card-body" style="width: 15rem; height: 20rem;">
+                                            <img src="{% cropped_thumbnail i "cropping" scale=1 %}" class="card-img-top"
+                                                 alt="...">
+                                            <div class="card-body">
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row" style="margin-left: 20px; margin-right: 20px;">
+                                    {% for i in doctors_second_level %}
+                                        <div class="card-body" style="width: 15rem; height: 20rem;">
+                                            <img src="{% cropped_thumbnail i "cropping" scale=1 %}" class="card-img-top"
+                                                 alt="...">
+                                            <div class="card-body">
+                                            </div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                        <span style="color: black"><i class="fa fa-arrow-circle-o-left"
+                                                      style="font-size:48px;color:#205067"></i></span>
+                    </a>
+                    <a href="#inam" class="carousel-control-next" data-slide="next">
+                        <span><i class="fa fa-arrow-circle-o-right" style="font-size:48px;color:#205067"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

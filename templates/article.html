@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load cropping %}
+{% load static %}
+{% block home_selected %}selected{% endblock %}
+{% block content %}
+    <div class="container" style="margin-bottom: 5%;">
+        <ul>
+            <div class="media">
+                <img src="{{ blog.image.url }}" class="mr-3" alt="" style="height: 300px; width: 350px;">
+                <div class="media-body">
+                    <h3>{{ blog.title }}</h3>
+                    <h5 class="mt-0">{{ blog.title2 }}</h5>
+                    <p>{{ blog.text2|linebreaks }}</p>
+                    <a href="{% url 'index'  %}" class="btn btn-secondary">Back</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+{% endblock %}

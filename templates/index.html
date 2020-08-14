@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block home_selected %}selected{% endblock %}
+{% block content %}
+    <div id="section">
+        <div>
+            <div>
+                <h1>Kidney Foundation Hospital</h1>
+                <p>
+                    First kidney foundation hospital in Central Asia, that helps people with disabilities to be treated
+                    with hemodialysis.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="featured">
+        <div>
+            <div class="article">
+                <h2>What is kidney disease? </h2>
+                {% load cropping %}
+                <img src="{% cropped_thumbnail image "cropping" scale=1 %}">
+                <p>
+                    Chronic kidney disease (CKD) has an important position among chronic non-communicable
+                    diseases due to its high prevalence, a drastic deterioration of the quality of life, high mortality,
+                    which lead to the need of using expensive renal replacement therapy methods at the end stage,
+                    such as hemodialysis and kidney transplantation. Progress of the modern medicine has allowed
+                    to develop a series of highly efficient and relatively cheap prevention approaches, allowing to
+                    significantly slow down the progression of chronic kidney disease, reduce a risk of
+                    complications and treatment costs.<a href="{% url 'kidney_disease_is' %}"> Read more...</a>
+                </p>
+            </div>
+            <div class="article" style="margin-left: 3%"><h2>Kidney Disease Risk Factors</h2></div>
+            <ul>
+                <a href="{% url 'advice_detail' 1 %}">
+                    <li>
+                        <h3>Diabetes</h3>
+                        <img src="{% static 'images/diabetes2.jpg' %}" alt="">
+                    </li>
+                </a>
+                <a href="{% url 'advice_detail' 2 %}">
+                    <li>
+                        <h3>Hypertension</h3>
+                        <img src="{% static 'images/hyper2.jpg' %}" alt="">
+                    </li>
+                </a>
+                <a href="{% url 'advice_detail' 3 %}">
+                    <li>
+                        <h3>Kidney Stones</h3>
+                        <img src="{% static 'images/stone2.jpg' %}" alt="">
+                    </li>
+                </a>
+                <a href="{% url 'advice_detail' 4 %}">
+                    <li>
+                        <h3>Glomerulonephritis</h3>
+                        <img src="{% static 'images/glomer2.jpg' %}" alt="">
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div id="featured">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                {% for i in doctors %}
+                <div class="col mb-4">
+                    <div class="card">
+                        <img src="{% cropped_thumbnail i "cropping" scale=1 %}" class="card-img-top" alt="">
+                        <div class="card-body" style="background-color: #97aeb3">
+                            <h5 class="card-title" style="color: #ffe600; text-shadow: 1px 1px 0 #768a8f; ">{{ i.title }}</h5>
+                            <p class="card-text">{{ i.text|truncatechars:150 }}</p>
+                            <a href="{% if i.title == 'Fundraise' %}{% url 'contact' %}{% else %}{% url 'blog' i.pk %}{% endif %}" class="btn btn-secondary">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

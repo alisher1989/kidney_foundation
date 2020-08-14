@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load cropping %}
+{% load static %}
+{% block home_selected %}selected{% endblock %}
+{% block content %}
+    <div class="container" style="margin-bottom: 5%;">
+        <ul>
+            <div class="card mb-3" style="text-align: left">
+                <img src="{% cropped_thumbnail advice "cropping" scale=1 %}" class="card-img-top" width="800">
+                <div class="card-body" style="background-color: #97aeb3">
+                    <h5 class="card-title" style="text-align: center">{{ advice.title }}</h5>
+                    <p class="card-text">{{ advice.text|linebreaks }}</p>
+                    <a href="{% url 'index'  %}" class="btn btn-secondary">Back</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+{% endblock %}
